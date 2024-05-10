@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+section, footer {
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5rem;
+    margin-block: 1rem;
+}
+
+p, ul {
+    margin-block: 1rem;
+}
+
+ul li {
+    margin-left: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: blue;
+}
+
+.recurso {
+    margin-block: 1.5rem;
+}
+
+.btn_download {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+}
+
+.btn_download:hover {
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+}
+
+.em_linha {
+    display: flex;
+    gap: 1rem;
+}
